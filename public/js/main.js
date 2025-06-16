@@ -2,6 +2,8 @@ import { triviaQuestion, getAIResponse } from "./api.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
   const questions = await triviaQuestion();
+  console.log("✅ Fetched questions:", questions);
+
 
   if (questions.length > 0) {
     const firstQuestion = questions[0];
