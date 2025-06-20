@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI-Powered Study Assistant</title>
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="./public/css/style.css" />
 </head>
 <body>
 
   <header>
     <h1>AI Study Assistant</h1>
     <p>Learn with trivia questions and AI-generated explanations</p>
+     <p id="score-display">Score: 0</p> 
   </header>
 
   <main>
@@ -22,6 +23,7 @@
       </div>
 
       <button id="explain-btn">Explain Answer</button>
+      <button id="next-btn">Next Question</button>
 
       <div id="explanation-box">
         <h3>AI Explanation</h3>
@@ -34,7 +36,6 @@
     <p>&copy; 2025 AI Study Assistant</p>
   </footer>
 
-
-  <script type="module" src="/public/js/main.js"></script>
+  <script type="module" src="./public/js/main.js"></script>
 </body>
 </html>
